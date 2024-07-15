@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>Глава I: Светило космоса</title>
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="libs/particles/particles.js" defer></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <audio id=right>
+        <source src="sounds/tamborin-svish-rapsodiz.mp3">
+    </audio>
+    <audio id=left>
+        <source src="sounds/tamborin-svish-rapsodiz.mp3">
+    </audio>
+    <audio autoplay="autoplay" id="backaudio" src="sounds/fantastika-atmosfera-kosmosa-29355.mp3" loop></audio>
+    <div class="swiper slider">
+        <div class="swiper-wrapper slider__wrapper">
+            <!-- Солнце -->
+            <div class="swiper-slide slider__item">
+
+                <div class="slider__layer" data-swiper-parallax="16%"
+                    style="background-image: url(img/sun/sun-back.jpg); background-size: cover;"></div>
+
+                <div class="slider__layer shadow" data-swiper-parallax="15%"
+                    style="background-image: url(img/sun/sun-middle.png); background-size: cover; background-size: 55vw; left: 30%; background-repeat: no-repeat; margin: 0 auto; box-shadow: none;">
+                </div>
+                <div class="slider__layer content-layer">
+                    <h1 class="title">Глава I: Светило космоса</h1>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);">В этой главе мы отправимся в
+                        путешествие к сердцу нашей Солнечной системы - Солнцу. Мы исследуем его физические
+                        характеристики, включая его массу, температуру и состав. Мы проследим за жизненным циклом
+                        Солнца, от его нынешнего состояния до его предсказанной конечной судьбы как белого карлика.</p>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);"> Понимание Солнца как звезды
+                        имеет решающее значение для нашего понимания Солнечной системы и нашего места во Вселенной.</p>
+                </div>
+                <canvas class="particles slider__layer" data-color="#b99970"></canvas>
+                <div class="slider__layer" data-swiper-parallax="14%"
+                    style="background-image: url(img/sun/sun-front.png); background-size: 2%; background-repeat: no-repeat; bottom: 40%; right: 10%; ">
+                </div>
+                <div class="slider__layer space-keys" data-swiper-parallax="40%"></div>
+                <div onclick="location.href='../2ieotss/index.html'" class="slider__layer space-exit"
+                    data-swiper-parallax="40%"></div>
+            </div>
+            <!-- Жёлтые карлики -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%"
+                    style="background-image: url(img/sun/yellowsuns/yellowstars-back.jpg);  background-size: cover;">
+                </div>
+                <div class="slider__layer" data-swiper-parallax="25%"
+                    style="background-image: url(img/sun/yellowsuns/yellowstars-middle.png); background-size: cover;">
+                </div>
+                <div class="slider__layer content-layer">
+                    <h1 class="title">Фонари во тьме</h1>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);">Солнце - это звезда,
+                        раскаленный газовый шар, который излучает энергию благодаря термоядерному синтезу в своем ядре.
+                        Оно классифицируется как звезда главной последовательности спектрального класса G, также
+                        известная как <span class="imp">желтый карлик.</span></p>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);"> Звезды главной
+                        последовательности составляют большинство звезд во Вселенной и характеризуются тем, что водород
+                        в их ядрах преобразуется в гелий посредством термоядерных реакций.</p>
+                </div>
+                <canvas class="particles slider__layer" data-color="#b99970"></canvas>
+                <div class="slider__layer" data-swiper-parallax="14%"
+                    style="background-image: url(img/sun/yellowsuns/yellowstars-front.png); background-size: contain; background-repeat: no-repeat; background-size: auto; top: 50%; left: 50%;">
+                </div>
+                <div class="slider__layer space-keys" data-swiper-parallax="40%"></div>
+                <div onclick="location.href='../2ieotss/index.html'" class="slider__layer space-exit"
+                    data-swiper-parallax="40%"></div>
+            </div>
+            <!-- Красный гигант -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="40%"
+                    style="background-image: url(img/sun/red-giant/redgiant-back.jpg); background-size: cover;"></div>
+                <div class="slider__layer" data-swiper-parallax="34%"
+                    style="background-image: url(img/sun/red-giant/redgiant-preback.png); background-repeat: no-repeat; background-size: auto; bottom: 50%; right: 50%;">
+                </div>
+                <div class="slider__layer" data-swiper-parallax="30%"
+                    style="background-image: url(img/sun/red-giant/redgiant-middle.png); background-repeat: no-repeat; background-size: auto;">
+                </div>
+
+
+                <div class="slider__layer" data-swiper-parallax="14%"
+                    style="background-image: url(img/sun/red-giant/redgiant-front.png); background-repeat: no-repeat; background-size: cover; ">
+                </div>
+                <div class="slider__layer content-layer">
+                    <h1 class="title">Алые дни</h1>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);">По мере того как Солнце будет
+                        стареть, его ядро будет сжиматься, а внешние слои расширяться и охлаждаться. Это расширение
+                        приведет к увеличению размера Солнца, и оно станет <span class="imp">красным гигантом.</span>
+                    </p>
+                    <p class="science-text" style="font-size: calc(var(--index) * 1.1);"> Как красный гигант, Солнце
+                        будет поглощать ближайшие планеты, включая Землю. Его внешние слои станут нестабильными и будут
+                        сброшены, образовав планетарную туманность.</p>
+                </div>
+                <canvas class="particles slider__layer" data-color="#525a6d"></canvas>
+                <div class="slider__layer space-keys" data-swiper-parallax="40%"></div>
+                <div onclick="location.href='../2ieotss/index.html'" class="slider__layer space-exit"
+                    data-swiper-parallax="40%"></div>
+            </div>
+            <!-- Белый карлик -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="40%"
+                    style="background-image: url(img/sun/white-shorty/whiteshorty-back.jpg); background-size: cover;">
+                </div>
+                <div class="slider__layer" data-swiper-parallax="34%"
+                    style="background-image: url(img/sun/white-shorty/whiteshorty-sun.png);  background-repeat: no-repeat; background-size: 40%;">
+                </div>
+                <div class="slider__layer" data-swiper-parallax="30%"
+                    style="background-image: url(img/sun/white-shorty/whiteshorty-middle.png);  background-repeat: no-repeat; background-size: auto; bottom: 35%; right: 50%;">
+                </div>
+                <div class="slider__layer content-layer">
+                    <h1 class="title">Последний свет</h1>
+                    <p class="science-text">Белый карлик - это конечная стадия эволюции звезд, подобных нашему Солнцу.
+                        Когда Солнце исчерпает свое ядерное топливо и сбросит свои внешние слои, его ядро ​​останется в
+                        виде плотного, горячего <span class="imp"> белого карлика.</span></p>
+                    <p class="science-text"> Белые карлики имеют массу, сравнимую с массой Солнца, но их размер
+                        сопоставим с размером Земли. Это делает их чрезвычайно плотными объектами, с веществом, сжатым
+                        до состояния, близкого к атомному ядру.</p>
+                    <p class="science-text">Белые карлики постепенно остывают и тускнеют в течение миллиардов лет. В
+                        конечном итоге они станут черными карликами - остывшими остатками звезд, которые больше не
+                        излучают значительного количества света. Солнцу предстоит стать белым карликом примерно через
+                        <span class="imp">10 миллиардов лет.</span>
+                    </p>
+                </div>
+                <canvas class="particles slider__layer" data-color="#525a6d"></canvas>
+                <div class="slider__layer" data-swiper-parallax="14%"
+                    style="background-image: url(img/sun/white-shorty/whiteshort-front.png);  background-repeat: no-repeat;background-size: calc(var(--index) * 9);left: 45%; top: 45%;">
+                </div>
+                <div class="slider__layer space-keys" data-swiper-parallax="40%"></div>
+                <div onclick="location.href='../2ieotss/index.html'" class="slider__layer space-exit"
+                    data-swiper-parallax="40%"></div>
+            </div>
+            <!-- Чёрная дыра -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%"
+                    style="background-image: url(img/sun/dark-end/blackhole-back.jpg); background-size: cover;"></div>
+                <div class="slider__layer" data-swiper-parallax="25%"
+                    style="background-image: url(img/sun/dark-end/blackhole-front.png); background-repeat: no-repeat; background-size: calc(var(--index) * 85);">
+                </div>
+                <div class="slider__layer content-layer">
+                    <h1 class="title">Тёмный конец</h1>
+                    <p class="science-text">Однако можно было бы представить что Солнце, будь оно хотя бы в <span
+                            class="imp">2 раза больше своей массы</span>, вместо окончания жизни как погасший карлик,
+                        стала <span class="imp">чёрной дырой.</span></p>
+                    <p class="science-text"> Завершая свой жизненный цикл, звезда с большой массой взрывается как
+                        сверхновая. После взрыва оставшееся ядро ​​звезды может коллапсировать в черную дыру, если его
+                        масса превышает примерно три массы Солнца.</p>
+                    <p class="science-text">
+
+                        Черная дыра - это область в пространстве-времени, где гравитация настолько сильна, что ничто,
+                        даже свет, не может вырваться из нее. Материя, попадающая в черную дыру, сжимается в бесконечно
+                        малую точку, известную как сингулярность.</p>
+                    <p class="science-text">К счастью, наше Солнце не может превратиться в черную дыру. Солнце имеет
+                        массу около 1,9 от нужной, что меньше предела массы, необходимого для образования черной дыры.
+                    </p>
+                </div>
+                <canvas class="particles slider__layer" data-color="#b99970"></canvas>
+                <div class="slider__layer space-keys" data-swiper-parallax="40%"></div>
+                <div onclick="location.href='../2ieotss/index.html'" class="slider__layer space-exit"
+                    data-swiper-parallax="40%"></div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
